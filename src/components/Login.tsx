@@ -36,7 +36,7 @@ const Login: React.FC = () => {
       }
     } 
     else{
-      navigate("/signUp")
+      navigate("/")
   }
   };
 
@@ -98,7 +98,7 @@ const Login: React.FC = () => {
             Login
           </button>
         </div>
-        <div className="font-light text-[15px]">Don't have account ?<Link to="/signUp" className="text-blue-500">SignUp</Link></div>
+        <div className="font-light text-[15px]">Don't have account ?<Link to="/" className="text-blue-500">SignUp</Link></div>
       </form>
     </div>
   );
