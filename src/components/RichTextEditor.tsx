@@ -12,6 +12,7 @@ const RichTextEditor: React.FC = () => {
     const savedData = localStorage.getItem("userData");
     if (savedData) {
       setUserData(JSON.parse(savedData));
+      console.log(content);
     }
   }, []);
 
